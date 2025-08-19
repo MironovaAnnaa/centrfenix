@@ -103,7 +103,7 @@ a {
 body {
 	min-height: 100vh;
 	line-height: 1.5;
-	background: var(--body-bg);
+	background: #fff;
 	font-family: "Exo2";
 	font-size: 14px;
 	color: var(--text);
