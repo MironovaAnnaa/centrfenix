@@ -144,18 +144,18 @@ body {
 .distance_learning ul li:before {
     content: "";
     background: url('data:image/svg+xml,<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6.36395" y="2.82843" width="4" height="13" rx="2" transform="rotate(-45 6.36395 2.82843)" fill="%23EF7C00"/><rect x="9.19238" y="18.3848" width="4" height="13" rx="2" transform="rotate(-135 9.19238 18.3848)" fill="%23EF7C00"/></svg>') no-repeat center;
-    width: 20px;
-    height: 20px;
+    width: 8px;
+    height: 12px;
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 3px;
+    top: 8px;
 }
 .distance_learning ul {
     list-style: none;
 }
 .distance_learning ul li{
-    padding-left: 32px;
+    padding-left: 20px;
     position: relative;
     font-size: 18px;
     font-weight: 500;
@@ -193,12 +193,12 @@ body {
     border-radius: 8px;
 
 }
-.image {
+.distance_learning .image {
   position: relative;
   display: inline-block;
   height:fit-content;
 }
-.image::after {
+.distance_learning .image::after {
   content: '';
     display: block;
     position: absolute;
@@ -208,6 +208,36 @@ body {
     bottom: 11px;
     z-index: -1;
     box-shadow: 0px 10px 25px -2px rgba(68, 68, 68, 0.5);
+}
+@media (max-width:771px){
+	.distance_learning .image{
+		position:absolute;
+	}
+	.distance_learning .image img{
+		width: 92px;
+    	height: 92px;
+    	object-fit: cover;
+	}
+	.distance_learning .title{
+		height: 92px;
+    	padding-left: 112px;
+		font-size:16px;
+		line-height:130%;
+	}
+	.distance_learning .subtitle{
+		font-size: 12px;
+    	line-height: 130%;
+    	text-align: center;
+	}
+	.distance_learning ul li{
+		font-size:10px;
+		padding-left:15px;
+	}
+	.distance_learning ul li:before {
+	    width: 5px;
+	    height: 8px;
+	    top: 3px;
+	}
 }
 
 
