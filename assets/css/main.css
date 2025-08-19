@@ -132,11 +132,12 @@ body {
 	border: 1px solid rgba(102, 102, 102, 1);
 	padding: 43px 55px 43px; 
     border-radius: 8px;  
+    gap:50px;
 }
 
 .distance_learning ul li:before {
     content: "";
-    background: url('../images/point_menu.svg') no-repeat center;
+    background: url('data:image/svg+xml,<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6.36395" y="2.82843" width="4" height="13" rx="2" transform="rotate(-45 6.36395 2.82843)" fill="%23EF7C00"/><rect x="9.19238" y="18.3848" width="4" height="13" rx="2" transform="rotate(-135 9.19238 18.3848)" fill="%23EF7C00"/></svg>') no-repeat center;
     width: 20px;
     height: 20px;
     display: inline-block;
