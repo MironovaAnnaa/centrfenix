@@ -130,7 +130,8 @@ body {
 	position: relative;
 	max-width: 1300px;
 	border: 1px solid rgba(102, 102, 102, 1);
-	padding: 43px 55px 43px;   
+	padding: 43px 55px 43px; 
+    border-radius: 8px;  
 }
 
 .distance_learning ul li:before {
@@ -154,4 +155,9 @@ body {
     padding-left: 32px;
     position: relative;
     margin-bottom: 22px;
+}
+.distance_learning .title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
 }
