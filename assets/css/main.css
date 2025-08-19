@@ -138,7 +138,7 @@ body {
 .distance_learning .descr{
 	display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 20px;
 }
 
 .distance_learning ul li:before {
@@ -276,6 +276,7 @@ body {
 		display:none;
 	}
 }
+
 
 
 
