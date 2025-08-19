@@ -187,6 +187,7 @@ body {
 }
 .image::after {
   content: '';
+  display:block;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -197,3 +198,4 @@ body {
   z-index: -1;
   border-radius: 8px;
 }
+
