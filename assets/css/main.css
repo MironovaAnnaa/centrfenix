@@ -155,7 +155,6 @@ body {
 .distance_learning ul li, .seo-text ul li {
     padding-left: 32px;
     position: relative;
-    margin-bottom: 22px;
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
@@ -181,4 +180,8 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
+}
+.distance_learning img{
+    border-radius: 8px;
+
 }
