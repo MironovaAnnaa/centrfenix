@@ -150,6 +150,7 @@ body {
     position: absolute;
     left: 0;
     top: 8px;
+	background-size: contain;
 }
 .distance_learning ul {
     list-style: none;
@@ -244,6 +245,7 @@ body {
 		line-height:100%;
 	}
 }
+
 
 
 
