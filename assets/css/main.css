@@ -146,13 +146,9 @@ body {
     top: 3px;
 }
 .distance_learning ul {
-    margin: 40px auto 30px auto;
     list-style: none;
-    padding: 0;
-    max-width: 1180px;
-    overflow: hidden;
 }
-.distance_learning ul li, .seo-text ul li {
+.distance_learning ul li{
     padding-left: 32px;
     position: relative;
     font-size: 18px;
