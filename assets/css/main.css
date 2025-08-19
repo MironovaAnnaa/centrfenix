@@ -261,6 +261,7 @@ body {
 	}
 	.distance_learning .buttons{
 		justify-content: center;
+		gap:15px;
 	}
 	.distance_learning .buttons .item{
 		border:2px solid #FF7316;
@@ -279,6 +280,7 @@ body {
 		display:none;
 	}
 }
+
 
 
 
