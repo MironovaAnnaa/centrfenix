@@ -183,23 +183,24 @@ body {
 	justify-content: center;
 }
 .distance_learning .buttons .item{
-    border: 4px solid #FF7316 ;
-    border-radius: 8px;   
+    border-radius: 4px;   
     padding: 10px;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
+	position:relative;
+	backgrouns:#fff;
 }
 .distance_learning .buttons .item::before {
   content: "";
   position: absolute;
-  top: -5px; /* Adjust for desired border thickness */
-  left: -5px; /* Adjust for desired border thickness */
-  right: -5px; /* Adjust for desired border thickness */
-  bottom: -5px; /* Adjust for desired border thickness */
-  background-image: linear-gradient(180deg, #FFA467 0%, #FF7316 100%); /* Your desired gradient */
-  z-index: -1; /* Place behind the main content */
-  border-radius: inherit; /* Inherit border-radius from parent if applicable */
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background-image: linear-gradient(180deg, #FFA467 0%, #FF7316 100%);
+  z-index: -1; 
+  border-radius: 8px; 
 }
 .distance_learning img{
     border-radius: 8px;
@@ -226,7 +227,7 @@ body {
 		margin:30px 15px;
 	}
 	.distance_learning .container{
-		paddinf:15px;
+		padding:15px;
 	}
 	.distance_learning .image{
 		position:absolute;
@@ -261,9 +262,18 @@ body {
 	.distance_learning .buttons .item{
 		border:2px solid #FF7316;
 		font-size:10px;
-		line-height:100%;
+		line-height:100%;		
+        border-radius: 2px;
+	}
+	.distance_learning .buttons .item::before {	  
+		top: -2px;
+    	left: -2px;
+    	right: -2px;
+    	bottom: -2px; 
+	    border-radius: 4px; 
 	}
 }
+
 
 
 
