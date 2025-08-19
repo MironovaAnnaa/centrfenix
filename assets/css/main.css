@@ -161,6 +161,9 @@ body {
     font-weight: 500;
     line-height: 150%;
 }
+.distance_learning ul li.bold{
+	font-weight:700;
+}
 .distance_learning .title{
     text-transform: uppercase;
     font-weight: 700;
@@ -204,6 +207,7 @@ body {
   z-index: -1;
   border-radius: 8px;
 }
+
 
 
 
