@@ -272,7 +272,11 @@ body {
     	bottom: -2px; 
 	    border-radius: 8px; 
 	}
+	.distance_learning .image::after{
+		display:none;
+	}
 }
+
 
 
 
