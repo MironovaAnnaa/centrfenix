@@ -117,3 +117,19 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+.distance_learning {
+	margin: 30px 0;
+	overflow: hidden;
+}
+
+.distance_learning .container {
+	display: flex;
+	background: url('../images/banner__bg.png') #FFFFFF no-repeat center center;
+	color: #000000;
+	justify-content: space-between;
+	position: relative;
+	max-width: 1300px;
+	border: 1px solid #EDEDED;
+	padding: 43px 55px 43px;
+}
