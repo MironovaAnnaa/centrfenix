@@ -229,6 +229,9 @@ body {
 	.distance_learning .container{
 		padding:15px;
 	}
+	.distance_learning .descr{
+		gap:15px;
+	}
 	.distance_learning .image{
 		position:absolute;
 	}
@@ -280,6 +283,7 @@ body {
 		display:none;
 	}
 }
+
 
 
 
