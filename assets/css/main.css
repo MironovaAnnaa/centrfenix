@@ -179,7 +179,7 @@ body {
 .distance_learning .buttons{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 	justify-content: flex-start;
 }
 .distance_learning .buttons .item{
@@ -279,6 +279,7 @@ body {
 		display:none;
 	}
 }
+
 
 
 
