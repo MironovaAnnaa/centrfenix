@@ -155,6 +155,9 @@ body {
     padding-left: 32px;
     position: relative;
     margin-bottom: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
 }
 .distance_learning .title{
     text-transform: uppercase;
